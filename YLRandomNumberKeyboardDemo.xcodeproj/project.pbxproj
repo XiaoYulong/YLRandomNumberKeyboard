@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3858600C1AC3CBBA0096AB63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3858600B1AC3CBBA0096AB63 /* main.m */; };
+		3858600F1AC3CBBA0096AB63 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3858600E1AC3CBBA0096AB63 /* AppDelegate.m */; };
+		385860121AC3CBBA0096AB63 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 385860111AC3CBBA0096AB63 /* ViewController.m */; };
+		385860151AC3CBBA0096AB63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 385860131AC3CBBA0096AB63 /* Main.storyboard */; };
+		385860171AC3CBBA0096AB63 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 385860161AC3CBBA0096AB63 /* Images.xcassets */; };
+		3858601A1AC3CBBA0096AB63 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 385860181AC3CBBA0096AB63 /* LaunchScreen.xib */; };
+		385860261AC3CBBA0096AB63 /* YLRandomNumberKeyboardDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 385860251AC3CBBA0096AB63 /* YLRandomNumberKeyboardDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		385860201AC3CBBA0096AB63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38585FFE1AC3CBBA0096AB63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 385860051AC3CBBA0096AB63;
+			remoteInfo = YLRandomNumberKeyboardDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		385860061AC3CBBA0096AB63 /* YLRandomNumberKeyboardDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YLRandomNumberKeyboardDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3858600A1AC3CBBA0096AB63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3858600B1AC3CBBA0096AB63 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3858600D1AC3CBBA0096AB63 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3858600E1AC3CBBA0096AB63 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		385860101AC3CBBA0096AB63 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		385860111AC3CBBA0096AB63 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		385860141AC3CBBA0096AB63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		385860161AC3CBBA0096AB63 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		385860191AC3CBBA0096AB63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3858601F1AC3CBBA0096AB63 /* YLRandomNumberKeyboardDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YLRandomNumberKeyboardDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		385860241AC3CBBA0096AB63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		385860251AC3CBBA0096AB63 /* YLRandomNumberKeyboardDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLRandomNumberKeyboardDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		385860031AC3CBBA0096AB63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3858601C1AC3CBBA0096AB63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38585FFD1AC3CBBA0096AB63 = {
+			isa = PBXGroup;
+			children = (
+				385860081AC3CBBA0096AB63 /* YLRandomNumberKeyboardDemo */,
+				385860221AC3CBBA0096AB63 /* YLRandomNumberKeyboardDemoTests */,
+				385860071AC3CBBA0096AB63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		385860071AC3CBBA0096AB63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				385860061AC3CBBA0096AB63 /* YLRandomNumberKeyboardDemo.app */,
+				3858601F1AC3CBBA0096AB63 /* YLRandomNumberKeyboardDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		385860081AC3CBBA0096AB63 /* YLRandomNumberKeyboardDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3858600D1AC3CBBA0096AB63 /* AppDelegate.h */,
+				3858600E1AC3CBBA0096AB63 /* AppDelegate.m */,
+				385860101AC3CBBA0096AB63 /* ViewController.h */,
+				385860111AC3CBBA0096AB63 /* ViewController.m */,
+				385860131AC3CBBA0096AB63 /* Main.storyboard */,
+				385860161AC3CBBA0096AB63 /* Images.xcassets */,
+				385860181AC3CBBA0096AB63 /* LaunchScreen.xib */,
+				385860091AC3CBBA0096AB63 /* Supporting Files */,
+			);
+			path = YLRandomNumberKeyboardDemo;
+			sourceTree = "<group>";
+		};
+		385860091AC3CBBA0096AB63 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3858600A1AC3CBBA0096AB63 /* Info.plist */,
+				3858600B1AC3CBBA0096AB63 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		385860221AC3CBBA0096AB63 /* YLRandomNumberKeyboardDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				385860251AC3CBBA0096AB63 /* YLRandomNumberKeyboardDemoTests.m */,
+				385860231AC3CBBA0096AB63 /* Supporting Files */,
+			);
+			path = YLRandomNumberKeyboardDemoTests;
+			sourceTree = "<group>";
+		};
+		385860231AC3CBBA0096AB63 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				385860241AC3CBBA0096AB63 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		385860051AC3CBBA0096AB63 /* YLRandomNumberKeyboardDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 385860291AC3CBBA0096AB63 /* Build configuration list for PBXNativeTarget "YLRandomNumberKeyboardDemo" */;
+			buildPhases = (
+				385860021AC3CBBA0096AB63 /* Sources */,
+				385860031AC3CBBA0096AB63 /* Frameworks */,
+				385860041AC3CBBA0096AB63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YLRandomNumberKeyboardDemo;
+			productName = YLRandomNumberKeyboardDemo;
+			productReference = 385860061AC3CBBA0096AB63 /* YLRandomNumberKeyboardDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3858601E1AC3CBBA0096AB63 /* YLRandomNumberKeyboardDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3858602C1AC3CBBA0096AB63 /* Build configuration list for PBXNativeTarget "YLRandomNumberKeyboardDemoTests" */;
+			buildPhases = (
+				3858601B1AC3CBBA0096AB63 /* Sources */,
+				3858601C1AC3CBBA0096AB63 /* Frameworks */,
+				3858601D1AC3CBBA0096AB63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				385860211AC3CBBA0096AB63 /* PBXTargetDependency */,
+			);
+			name = YLRandomNumberKeyboardDemoTests;
+			productName = YLRandomNumberKeyboardDemoTests;
+			productReference = 3858601F1AC3CBBA0096AB63 /* YLRandomNumberKeyboardDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38585FFE1AC3CBBA0096AB63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Yulong Xiao";
+				TargetAttributes = {
+					385860051AC3CBBA0096AB63 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					3858601E1AC3CBBA0096AB63 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 385860051AC3CBBA0096AB63;
+					};
+				};
+			};
+			buildConfigurationList = 385860011AC3CBBA0096AB63 /* Build configuration list for PBXProject "YLRandomNumberKeyboardDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38585FFD1AC3CBBA0096AB63;
+			productRefGroup = 385860071AC3CBBA0096AB63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				385860051AC3CBBA0096AB63 /* YLRandomNumberKeyboardDemo */,
+				3858601E1AC3CBBA0096AB63 /* YLRandomNumberKeyboardDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		385860041AC3CBBA0096AB63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				385860151AC3CBBA0096AB63 /* Main.storyboard in Resources */,
+				3858601A1AC3CBBA0096AB63 /* LaunchScreen.xib in Resources */,
+				385860171AC3CBBA0096AB63 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3858601D1AC3CBBA0096AB63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		385860021AC3CBBA0096AB63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				385860121AC3CBBA0096AB63 /* ViewController.m in Sources */,
+				3858600F1AC3CBBA0096AB63 /* AppDelegate.m in Sources */,
+				3858600C1AC3CBBA0096AB63 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3858601B1AC3CBBA0096AB63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				385860261AC3CBBA0096AB63 /* YLRandomNumberKeyboardDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		385860211AC3CBBA0096AB63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 385860051AC3CBBA0096AB63 /* YLRandomNumberKeyboardDemo */;
+			targetProxy = 385860201AC3CBBA0096AB63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		385860131AC3CBBA0096AB63 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				385860141AC3CBBA0096AB63 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		385860181AC3CBBA0096AB63 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				385860191AC3CBBA0096AB63 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		385860271AC3CBBA0096AB63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		385860281AC3CBBA0096AB63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3858602A1AC3CBBA0096AB63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YLRandomNumberKeyboardDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3858602B1AC3CBBA0096AB63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YLRandomNumberKeyboardDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3858602D1AC3CBBA0096AB63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YLRandomNumberKeyboardDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YLRandomNumberKeyboardDemo.app/YLRandomNumberKeyboardDemo";
+			};
+			name = Debug;
+		};
+		3858602E1AC3CBBA0096AB63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YLRandomNumberKeyboardDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YLRandomNumberKeyboardDemo.app/YLRandomNumberKeyboardDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		385860011AC3CBBA0096AB63 /* Build configuration list for PBXProject "YLRandomNumberKeyboardDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				385860271AC3CBBA0096AB63 /* Debug */,
+				385860281AC3CBBA0096AB63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		385860291AC3CBBA0096AB63 /* Build configuration list for PBXNativeTarget "YLRandomNumberKeyboardDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3858602A1AC3CBBA0096AB63 /* Debug */,
+				3858602B1AC3CBBA0096AB63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3858602C1AC3CBBA0096AB63 /* Build configuration list for PBXNativeTarget "YLRandomNumberKeyboardDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3858602D1AC3CBBA0096AB63 /* Debug */,
+				3858602E1AC3CBBA0096AB63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38585FFE1AC3CBBA0096AB63 /* Project object */;
+}
