@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "YLRandomNumberKeyboard.h"
 @interface ViewController ()
 
 @end
@@ -16,6 +16,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    UITextField *textField = [[UITextField alloc] initWithFrame:CGRectMake(20, 60, 300, 40)];
+    [textField useYLRandomNumberKeyboard];
+    textField.borderStyle = UITextBorderStyleLine;
+    textField.placeholder = @"please input ...";
+    [self.view addSubview:textField];
 }
 
 - (void)didReceiveMemoryWarning {

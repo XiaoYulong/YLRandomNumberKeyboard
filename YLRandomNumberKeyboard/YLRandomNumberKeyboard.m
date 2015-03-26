@@ -10,6 +10,21 @@
 
 @implementation YLRandomNumberKeyboard
 
+-(id)init{
+    return [self initWithFrame:CGRectZero];
+}
+
+-(id)initWithFrame:(CGRect)frame
+{
+    CGRect realFrame = CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.height, 216);
+    self = [super initWithFrame:realFrame];
+    if (self) {
+        self.backgroundColor = [UIColor redColor];
+    }
+    return self;
+}
+
+
 /*
 // Only override drawRect: if you perform custom drawing.
 // An empty implementation adversely affects performance during animation.

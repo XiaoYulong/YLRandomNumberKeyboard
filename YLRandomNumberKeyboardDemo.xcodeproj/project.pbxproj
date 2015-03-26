@@ -14,6 +14,7 @@
 		3858601A1AC3CBBA0096AB63 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 385860181AC3CBBA0096AB63 /* LaunchScreen.xib */; };
 		385860261AC3CBBA0096AB63 /* YLRandomNumberKeyboardDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 385860251AC3CBBA0096AB63 /* YLRandomNumberKeyboardDemoTests.m */; };
 		385860321AC3CFC40096AB63 /* YLRandomNumberKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 385860311AC3CFC40096AB63 /* YLRandomNumberKeyboard.m */; };
+		385860351AC3DCF30096AB63 /* UITextField+YLRandomNumberKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 385860341AC3DCF30096AB63 /* UITextField+YLRandomNumberKeyboard.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,8 @@
 		385860251AC3CBBA0096AB63 /* YLRandomNumberKeyboardDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLRandomNumberKeyboardDemoTests.m; sourceTree = "<group>"; };
 		385860301AC3CFC40096AB63 /* YLRandomNumberKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YLRandomNumberKeyboard.h; path = YLRandomNumberKeyboard/YLRandomNumberKeyboard.h; sourceTree = "<group>"; };
 		385860311AC3CFC40096AB63 /* YLRandomNumberKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YLRandomNumberKeyboard.m; path = YLRandomNumberKeyboard/YLRandomNumberKeyboard.m; sourceTree = "<group>"; };
+		385860331AC3DCF30096AB63 /* UITextField+YLRandomNumberKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+YLRandomNumberKeyboard.h"; sourceTree = "<group>"; };
+		385860341AC3DCF30096AB63 /* UITextField+YLRandomNumberKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+YLRandomNumberKeyboard.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +128,8 @@
 			children = (
 				385860301AC3CFC40096AB63 /* YLRandomNumberKeyboard.h */,
 				385860311AC3CFC40096AB63 /* YLRandomNumberKeyboard.m */,
+				385860331AC3DCF30096AB63 /* UITextField+YLRandomNumberKeyboard.h */,
+				385860341AC3DCF30096AB63 /* UITextField+YLRandomNumberKeyboard.m */,
 			);
 			name = YLRandomNumberKeyboard;
 			sourceTree = "<group>";
@@ -229,6 +234,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				385860121AC3CBBA0096AB63 /* ViewController.m in Sources */,
+				385860351AC3DCF30096AB63 /* UITextField+YLRandomNumberKeyboard.m in Sources */,
 				3858600F1AC3CBBA0096AB63 /* AppDelegate.m in Sources */,
 				3858600C1AC3CBBA0096AB63 /* main.m in Sources */,
 				385860321AC3CFC40096AB63 /* YLRandomNumberKeyboard.m in Sources */,

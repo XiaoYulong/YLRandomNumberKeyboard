@@ -1,5 +1,5 @@
 //
-//  YLRandomNumberKeyboard.h
+//  UITextField+YLRandomNumberKeyboard.h
 //  YLRandomNumberKeyboardDemo
 //
 //  Created by 肖 玉龙 on 15/3/26.
@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "UITextField+YLRandomNumberKeyboard.h"
-@interface YLRandomNumberKeyboard : UIView
-
+@interface UITextField (YLRandomNumberKeyboard)
+-(void) useYLRandomNumberKeyboard;
 @end
+
+
