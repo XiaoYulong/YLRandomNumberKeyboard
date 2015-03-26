@@ -11,7 +11,9 @@
 @implementation UITextField(YLRandomNumberKeyboard)
 -(void)useYLRandomNumberKeyboard
 {
-    self.inputView = [YLRandomNumberKeyboard new];
+    YLRandomNumberKeyboard *keyboard = [YLRandomNumberKeyboard new];
+    self.inputView = keyboard;
+    keyboard.textInput = self;
 }
 @end
 

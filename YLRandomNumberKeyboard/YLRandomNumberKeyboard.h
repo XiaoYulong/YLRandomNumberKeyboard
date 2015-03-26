@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 #import "UITextField+YLRandomNumberKeyboard.h"
 @interface YLRandomNumberKeyboard : UIView
-
+@property (nonatomic, weak) id<UITextInput> textInput;
 @end
