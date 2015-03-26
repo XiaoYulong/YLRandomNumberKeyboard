@@ -10,7 +10,6 @@
 		3858600C1AC3CBBA0096AB63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3858600B1AC3CBBA0096AB63 /* main.m */; };
 		3858600F1AC3CBBA0096AB63 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3858600E1AC3CBBA0096AB63 /* AppDelegate.m */; };
 		385860121AC3CBBA0096AB63 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 385860111AC3CBBA0096AB63 /* ViewController.m */; };
-		385860151AC3CBBA0096AB63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 385860131AC3CBBA0096AB63 /* Main.storyboard */; };
 		385860171AC3CBBA0096AB63 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 385860161AC3CBBA0096AB63 /* Images.xcassets */; };
 		3858601A1AC3CBBA0096AB63 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 385860181AC3CBBA0096AB63 /* LaunchScreen.xib */; };
 		385860261AC3CBBA0096AB63 /* YLRandomNumberKeyboardDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 385860251AC3CBBA0096AB63 /* YLRandomNumberKeyboardDemoTests.m */; };
@@ -34,7 +33,6 @@
 		3858600E1AC3CBBA0096AB63 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		385860101AC3CBBA0096AB63 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		385860111AC3CBBA0096AB63 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		385860141AC3CBBA0096AB63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		385860161AC3CBBA0096AB63 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		385860191AC3CBBA0096AB63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		3858601F1AC3CBBA0096AB63 /* YLRandomNumberKeyboardDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YLRandomNumberKeyboardDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -85,7 +83,6 @@
 				3858600E1AC3CBBA0096AB63 /* AppDelegate.m */,
 				385860101AC3CBBA0096AB63 /* ViewController.h */,
 				385860111AC3CBBA0096AB63 /* ViewController.m */,
-				385860131AC3CBBA0096AB63 /* Main.storyboard */,
 				385860161AC3CBBA0096AB63 /* Images.xcassets */,
 				385860181AC3CBBA0096AB63 /* LaunchScreen.xib */,
 				385860091AC3CBBA0096AB63 /* Supporting Files */,
@@ -199,7 +196,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				385860151AC3CBBA0096AB63 /* Main.storyboard in Resources */,
 				3858601A1AC3CBBA0096AB63 /* LaunchScreen.xib in Resources */,
 				385860171AC3CBBA0096AB63 /* Images.xcassets in Resources */,
 			);
@@ -244,14 +240,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		385860131AC3CBBA0096AB63 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				385860141AC3CBBA0096AB63 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		385860181AC3CBBA0096AB63 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
