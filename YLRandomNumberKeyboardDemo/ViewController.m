@@ -20,7 +20,7 @@
     [textField useYLRandomNumberKeyboard];
     textField.borderStyle = UITextBorderStyleLine;
     textField.placeholder = @"please input ...";
-    textField.secureTextEntry = YES;
+//    textField.secureTextEntry = YES;
     [self.view addSubview:textField];
 }
 
